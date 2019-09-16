@@ -1,0 +1,26 @@
+<div id="container">
+  <img src="assets/logo.jpg"/>
+  <div  id="menu">
+    <button>Dashboard</button>
+    <button>Contacts</button>
+    <button>Notifications</button>
+  </div>
+  <div id="search">
+    <input id="searchInput" placeholder="Search"/>
+    <fa-icon id="searchIcon" [icon]="faSearch"></fa-icon>
+  </div>
+
+  <div id="user" (click)="!menuOpen ? menuOpen = true : menuOpen = false">
+      <fa-icon id="userIcon" [icon]="faUserAlt"></fa-icon>Kintautas Puodžiukynas
+      <fa-icon id="arrowIcon" [icon]="faCaretDown"></fa-icon>
+  </div>
+  <div *ngIf="menuOpen" id="userMenu">
+    <span class="up"><fa-icon id="upIcon" [icon]="faCaretUp"></fa-icon></span>
+    <span class="item"><fa-icon [icon]="faUsers"></fa-icon>Groups</span>
+    <span class="item"><fa-icon [icon]="faComments"></fa-icon>Frequently contacted</span>
+    <span  class="item"><fa-icon [icon]="faWrench"></fa-icon>Preferences</span>
+    <span class="item"><fa-icon [icon]="faPowerOff"></fa-icon>Logout</span>
+  </div>
+</div>
+
+

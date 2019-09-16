@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Contact } from './data'
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'metasiteTask';
+  contact: Contact
+  cities: string[]
+  filterData: any[] = []
+
+  show(c) {
+    this.contact = c;
+  }
+
+  getCities(c) {
+    this.cities = c
+  }
+  filter(f) {
+    this.filterData = f
+  }
 }

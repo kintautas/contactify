@@ -1,0 +1,11 @@
+<div id="container">
+  <div><input [(ngModel)]="name" name="name" class="name spc rounded" placeholder="Name"/></div>
+  <div><select  [(ngModel)]="city" name="city"  class="rounded spc">
+        <option *ngFor="let city of cities" [ngValue]="city">{{ city }}</option>
+        </select>
+  </div>
+  <span style="color: white"><input [(ngModel)]="active" name="active" type="checkbox"/>Show active</span>
+  <button (click)="filter()" id="filter">Filter</button>
+  <button id="addContact"><fa-icon id="plusIcon" [icon]="faPlus"></fa-icon>Add new contact</button>
+
+</div>

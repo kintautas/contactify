@@ -1,0 +1,25 @@
+#container {
+    width: 15vw;
+    height: 35vh;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 5vh;
+    padding-bottom: 7vh;
+
+
+}
+#contact {
+    display: flex;
+    flex-direction: column;
+    font-size: 2.2vh;
+    text-align: center
+}
+img {
+    width:80%;
+    align-self: center;
+    border-radius: 50%;
+    border: 5px solid #D7D7CE;
+}
+.title {
+    color:rgb(175, 174, 174);
+}

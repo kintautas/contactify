@@ -1,0 +1,43 @@
+#container {
+    background-image: linear-gradient(to right, #1A6662 , #153655);
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.name {
+    margin-left: 4vw;
+}
+.spc {
+    margin-right: 1vw;
+}
+.rounded {
+    border-radius: 15px;
+    height: 40%;
+}
+#filter {
+    border: 2px solid #588088;
+    background-color: #1A545F;
+    text-transform: uppercase;
+    border-radius: 15px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 1vw;
+}
+#addContact {
+    background-color: #207F7B;
+    margin-left: auto;
+    margin-right: 4vw;
+    border: none;
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: white;
+
+}
+#plusIcon {
+    color: white;
+    background-color: #1A6662;
+}

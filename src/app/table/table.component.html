@@ -1,0 +1,21 @@
+<div id="container">
+  <table>
+    <tr class="header-row">
+      <th (click)="sortName()" id="name" style="background-color: #0086A4;"><fa-icon *ngIf="sortNameBool" [icon]="faLongArrowAltDown"></fa-icon>Name</th>
+      <th  style="background-color: #0390AE;" >Surname</th>
+      <th style="background-color: #0899B8;">City</th>
+      <th style="background-color: #0EADCA">Email</th>
+      <th style="background-color: #11B6D4;">Phone</th>
+      <th style="background-color: #15C0DE"></th>
+    </tr>
+    <tr class="row" (click)="showProfile(contact)" *ngFor="let contact of contacts">
+      <td><fa-icon class="icon" [icon]="contact.active ? faEye : faEyeSlash"></fa-icon>{{ contact.name }}</td>
+      <td>{{ contact.surname }}</td>
+      <td>{{ contact.city }}</td>
+      <td>{{ contact.email }}</td>
+      <td>{{ contact.phone }}</td>
+      <td class="edit"><fa-icon [icon]="faPen"></fa-icon><fa-icon [icon]="faTrashAlt"></fa-icon></td>
+    </tr>   
+  </table>
+</div>
+

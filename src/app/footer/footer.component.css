@@ -1,0 +1,71 @@
+#container {
+    width: 100vw;
+    height: 19vh;
+    display: flex;
+    flex-direction: row;
+    color: white;
+
+}
+#container a {
+    color: white;
+}
+#menuLinks {
+    width:40vw;
+    height: 100%;
+    background-color: #194E5C;
+    padding-left: 4vw;
+    padding-top: 1vh;
+}
+#info {
+    width: 40vw;
+    height: 100%;
+    background-color: #132646;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1vw;
+    padding-top: 1vw;
+}
+#links {
+
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    height: 100%;
+    background-color: #162F53;
+    padding-top: 1vw;
+    padding-left: 1vw;
+
+}
+#menuLinks {
+    padding-top: 1vw;
+    display: flex;
+    flex-direction: column;
+}
+#sync {
+    height: 50%;
+    border-bottom: 1px solid #203451;
+    display: flex;
+    flex-direction: row;
+}
+#upload {
+    margin-right: 2vw;
+}
+#lastSynced {
+    width:60%
+}
+#force {
+    width: 20%;
+}
+#helpDesk {
+    padding-top: 1vw;
+    height: 50%;
+}
+#helpDesk {
+    display: flex;
+    flex-direction: row;
+
+}
+#stet {
+    margin-right: 2vw;
+}
+

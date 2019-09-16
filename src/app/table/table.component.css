@@ -1,0 +1,34 @@
+#container {
+    background-color: white;
+}
+table {
+    width: 70vw;
+    border-collapse: collapse;
+}
+.icon {
+    margin-left: 5px;
+    margin-right: 1vw;
+}
+table th {
+    font-weight: normal;
+    color: white;
+}
+.row:hover {
+    background-color: #E6F5F8;
+    cursor: pointer;
+}
+.row:hover .edit {
+    color: #10B7D5;
+}
+.row {
+    border-bottom: 1px solid #EEEEED;
+    height: 5vh;
+    font-weight: 300;
+    font-size: small;
+}
+.header-row {
+    height:5vh;
+}
+#name:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,14 @@
+#container {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right, #207F79 , #1C3C6B);
+    overflow: hidden;
+}
+#table {
+    width: 100vw;
+    height: 55vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
